@@ -1,0 +1,1 @@
+// oncluí os exercícios de SELECT. Ainda preciso escolher o material para revisar índices.
