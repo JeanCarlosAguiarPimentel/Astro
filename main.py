@@ -1,5 +1,6 @@
 from pathlib import Path
 
+
 def listar_notas(pasta):
     nomes = []
 
@@ -8,5 +9,15 @@ def listar_notas(pasta):
 
     return nomes
 
-pasta = Path(__file__).resolve().parent / "laboratorio"
-print(listar_notas(pasta))
+
+def ler_notas(conteudo):
+    notas = []
+
+    for arquivo in conteudo("laboratorio/estudos.md"):
+        return arquivo.read_text(encoding="utf-8")
+
+    return conteudo
+
+
+pasta = Path(__file__).resolve().parent / "laboratorio/estudos.md"
+print(conteudo)
